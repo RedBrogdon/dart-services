@@ -78,7 +78,7 @@ class FlutterSdk extends Sdk {
   @override
   String get sdkPath => path.join(flutterBinPath, 'cache/dart-sdk');
 
-  String get flutterBinPath => path.join(Directory.current.parent.path, 'flutter/bin');
+  String get flutterBinPath => path.join(Directory.current.path, 'flutter/bin');
 
   @override
   String get versionFull => _versionFull;
